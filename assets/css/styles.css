@@ -1,0 +1,184 @@
+/* TOP BAR START */
+.navbar-wrapper {
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    padding-bottom: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    
+}
+
+/* Top Bar */
+.top-bar {
+    background: rgba(0, 0, 0, 0.01); /* Dark transparent background */
+    font-size: 0.9rem;
+    padding: 1rem 0; /* Increase vertical padding for more height */
+    border-bottom: 1px solid wheat;
+    width: 90%; /* Adjust width to leave 5% on both sides */
+    margin: 0 auto; /* Center horizontally */
+    display: flex; /* Ensures content alignment if using flex items inside */
+    justify-content: center; /* Center content if needed */
+}
+
+/* Adjust flag size */
+.top-bar .flag {
+    width: 25px;
+    height: 18px;
+    border-radius: 3px;
+}
+
+/* Navbar links */
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #7a27a0;
+}
+
+.navbar-nav .nav-link.active::after,
+.navbar-nav .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #003f00;
+    transition: 0.3s ease-in-out;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9); /* Dark dropdown background */
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: none; /* Hide dropdown */
+    position: absolute; /* Position it absolutely */
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+.dropdown-item {
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #7a27a0;
+    transform: translateX(1px);
+}
+/* Hide the dropdown menu by default */
+
+/* Show the dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+
+/* TOP BAR END */
+
+
+/* COMPANY SECTION START*/
+
+
+
+
+
+.company-section-image-container{
+     
+    border-radius: 10px; /* Optional: adds rounded corners to the image */
+
+}
+.hover-effect {
+    transition: transform 0.3s ease;
+}
+.company-section-company-motto {
+    font-family: "Cookie", serif;
+    font-weight: 400;
+    font-style: bold;
+    color: #000000;
+    font-size: 4rem;
+    margin-top: -40px;
+}
+.company-section-company-heading , .company-section-company-text{
+
+    color: white;
+}
+.company-section-company-heading {
+    font-size: 4rem; 
+} 
+.company-section-company-text{
+    font-size: 1.3rem; 
+
+}
+.company-section-company-text-2{
+    font-size: 1rem; 
+    padding: 20px;
+    margin-top: -25px;
+
+}
+
+/* Style for the "Reach Out to Us" button */
+.company-section-company-button {
+    font-size: 1.5rem; /* Make the button bigger */
+    padding: 0.8rem 2rem; /* Add some padding for size */
+    
+    
+    background: linear-gradient(to left,  #c779d0, #4bc0c8); /* Dark green to light green gradient */
+    color: white; /* White text */
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); /* Add a subtle shadow */
+    transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+/* Hover effects */
+.company-section-company-button:hover {
+    background: linear-gradient(to right,  #c779d0, #4bc0c8); /* Slightly different gradient on hover */
+    transform: scale(1.1); /* Expand slightly */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance the shadow */
+    color: #f8f8f8; /* Subtle color change for text */
+}
+
+
+
+
+
+/* COMPANY SECTION END*/
+
+
+
+/* CURLY SHAPE CSS SECTION START*/
+
+
+.curly-shape {
+    position: absolute; /* Position it absolutely */
+
+    width: 100%; /* Make it span the entire width */
+    z-index: 9999; /* Ensure it's in front of everything */
+    background: none; /* Remove any default background color */
+}
+
+.curly-shape svg {
+    display: block; /* Ensure proper display */
+    width: 100%; /* Make the SVG span the full width */
+    height: auto; /* Maintain aspect ratio */
+    fill: white; /* Set the SVG path fill to white */
+}
+/* CURLY SHAPE CSS SECTION END*/
+
+
+
+
+
+
+
+/* CURLY SHAPE CSS SECTION END*/
