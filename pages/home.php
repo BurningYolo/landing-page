@@ -44,12 +44,7 @@ include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c
 
 include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c_formsection.php';
 
-$data = [
-    'topText' => 'Abc Abc Abc Abc',
-    'heading' => 'Abc Abc Abc ',
-    'description' => 'text text text text text text text'
-];
-include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c_heading.php';
+
 
 
 

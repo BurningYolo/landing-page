@@ -173,12 +173,20 @@
     height: auto; /* Maintain aspect ratio */
     fill: white; /* Set the SVG path fill to white */
 }
+
+.curly-shape-180
+{
+    transform: rotate(180deg);
+}
 /* CURLY SHAPE CSS SECTION END*/
 
 
+/* BOTTOM BAR START */
 
+.footer-wrapper {
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding-top: 10%;
+}
 
-
-
-
-/* CURLY SHAPE CSS SECTION END*/
+/* BOTTOM BAR END */
