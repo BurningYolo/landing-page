@@ -34,6 +34,23 @@ $data = [
 include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c_heading.php';
 include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c_reviews.php';
 
+$data = [
+    'topText' => 'Get in Touch with us',
+    'heading' => 'We Got You Covered',
+    'description' => 'Reach out to us and discuss in detail. From small business to Giant , we got you covered'
+];
+include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c_heading.php';
+
+
+include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c_formsection.php';
+
+$data = [
+    'topText' => 'Abc Abc Abc Abc',
+    'heading' => 'Abc Abc Abc ',
+    'description' => 'text text text text text text text'
+];
+include BASE_DIR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'c_heading.php';
+
 
 
 
